@@ -23,7 +23,7 @@ const Footer = () => {
     // </Grid>
       <div className="footer">
         Follow us:&nbsp;&nbsp;
-        <FontAwesome name="instagram"/>&nbsp;Instagram &nbsp;<FontAwesome name="yelp"/>&nbsp;Yelp
+        <FontAwesome name="instagram"/>&nbsp;Instagram &nbsp;<FontAwesome name="yelp"/>&nbsp;Yelp &nbsp;<FontAwesome name="facebook-official"/>&nbsp;Facebook
         <br/>
         Location
         <br/>
