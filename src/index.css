@@ -2,9 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #F8F8F8;
+  background-color: #F9F9F9;
 }
 
+/* remove padding and margin from react-bootstrap grid */
 div.container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -21,8 +22,6 @@ div.col-sm-1,div.col-sm-10,div.col-sm-11,div.col-sm-12,div.col-sm-2,div.col-sm-3
 div.col-xs-1,div.col-xs-10,div.col-xs-11,div.col-xs-12,div.col-xs-2,div.col-xs-3,div.col-xs-4,div.col-xs-5,div.col-xs-6,div.col-xs-7,div.col-xs-8,div.col-xs-9 {
   padding-left: 0;
   padding-right: 0;
-  margin-right: 0px;
-  margin-left: 0px
 }
 
 h2 {
@@ -64,6 +63,37 @@ img {
 
 .navbar > .container {
   width: auto;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  line-height: 45px;
+}
+
+.footer {
+  height: 200px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+  border: solid #E7E7E7;
+  border-width: 1px 0 0 0;
+  color: black;
+  text-align: left;
+  padding: 15px 30px;
+  line-height: 40px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: .5em 0;
+    padding: 0;
 }
 
 .hero-content {
@@ -109,8 +139,8 @@ img {
 }
 
 .banner-text {
-  font-size: 1.75rem;
-  -webkit-text-stroke: 1px black;
+  font-size: 2rem;
+  -webkit-text-stroke: .5px black;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -124,10 +154,10 @@ img {
 
 .move-left {
   position: relative;
-  left: 45px;
+  left: 40px;
 }
 
 .move-right {
   position: relative;
-  right: 45px;
+  right: 40px;
 }
