@@ -46,12 +46,14 @@ img {
   margin: 5px 15px;
   height: 65px;
   width: 65px;
+  cursor: pointer; /* cursor changes to hand icon */
 }
 
 .logo-name {
   padding-top: 5px;
   position: relative;
   width: 400px;
+  cursor: pointer;
 }
 
 .navbar {
