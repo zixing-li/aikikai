@@ -5,6 +5,7 @@ import picture2 from '../assets/o-2.png'
 import picture3 from '../assets/o-3.png'
 import test from '../assets/o-1.png'
 
+// xs should move to new line
 const Home = () => {
   return (
     <div>
@@ -13,32 +14,32 @@ const Home = () => {
       </div>      
       <Grid fluid>
         <Row className="banner">
-          <Col sm={8} md={8}>
+          <Col xs={12} sm={6} md={8}>
             <img src={picture2} alt="Aikido Picture" className="banner-pic" />
           </Col>
-          <Col sm={4} md={4} className="text-container">
+          <Col xs={12} sm={6} md={4} className="text-container">
             <div className="move-right">
-              <span className="banner-text">NY Eastside Aikikai, located in the Upper Eastside of New York City, offers traditional training in the art of Aikido.</span>
+              <span className="banner-text">New York Eastside Aikikai (NYEA), established in 2009, is affliliated with United States Aikido Federation (USAF), under the direction of Yoshimitsu Yamada Shihan, 8th Dan</span>
             </div>
           </Col>
         </Row>
         <Row className="banner">
-          <Col sm={4} md={4} className="text-container">
+          <Col xs={12} sm={6} md={4} className="text-container">
             <div className="move-left">
-              <span className="banner-text">NY Eastside Aikikai, located in the Upper Eastside of New York City, offers traditional training in the art of Aikido.</span>
+              <span className="banner-text">NYEA offers Aikido classes for adults and children. Adults will find the Aikido experience rewarding, as they achieve the ideal balance of physical and mental training. The training at NYEA is vigorous and intense</span>
             </div>
           </Col>
-          <Col sm={8} md={8}>
+          <Col xs={12} sm={6} md={8}>
             <img src={picture3} alt="Aikido Picture" className="banner-pic" />
           </Col>
         </Row>
         <Row className="banner">
-          <Col sm={8} md={8}>
+          <Col xs={12} sm={6} md={8}>
             <img src={picture1} alt="Aikido Picture" className="banner-pic" />
           </Col>
-          <Col sm={4} md={4} className="text-container">
+          <Col xs={12} sm={6} md={4} className="text-container">
             <div className="move-right">
-              <span className="banner-text">Beginners and advanced practitioners, children and adults alike are invited to discover the joy of natural movement and master effective self-defense techniques.</span>
+              <span className="banner-text">Classes for children start at age six and continue up to age fourteen. The kids class is energetic and playful, and attention to safety is paramount. As experience and understanding deepen, kids develop confidence and leadership skills, and they help others to grow</span>
             </div>
           </Col>
         </Row>

@@ -6,9 +6,10 @@ import App from './containers/App';
 import Home from './components/Home';
 import Gallery from './components/Gallery';
 import Location from './components/Location';
+import Aikido from './components/Aikido';
+import Instructors from './components/Instructors';
+import Fee from './components/Fee';
 import registerServiceWorker from './registerServiceWorker';
-
-// ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render((
   <BrowserRouter>
@@ -16,7 +17,9 @@ ReactDOM.render((
       <Route exact path="/" component={Home} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/location" component={Location} />
-      {/*<Route path="/album" component={()=>(<div><Album/><PlayerBar/></div>)} />*/}
+      <Route path="/aikido" component={Aikido} />
+      <Route path="/instructors" component={Instructors} />
+      <Route path="/schedule&fee" component={Fee} />
     </App>
   </BrowserRouter>
 ), document.getElementById('root'));

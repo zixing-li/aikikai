@@ -26,10 +26,9 @@ const Navigation = () => {
             <NavItem eventKey={2} href="#">Location</NavItem>
           </LinkContainer>
           <NavDropdown eventKey={3} title="Learn more">
-            <MenuItem eventKey={3.1}>Aikido</MenuItem>
-            <MenuItem eventKey={3.2}>Instructors</MenuItem>
-            <MenuItem eventKey={3.3}>Schedule & Fees</MenuItem>
-            <MenuItem eventKey={3.4}>Seminars</MenuItem>
+            <LinkContainer to="aikido"><MenuItem eventKey={3.1}>Aikido</MenuItem></LinkContainer>
+            <LinkContainer to="instructors"><MenuItem eventKey={3.2}>Instructors</MenuItem></LinkContainer>
+            <LinkContainer to="schedule&fee"><MenuItem eventKey={3.3}>Schedule & Fees</MenuItem></LinkContainer>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
