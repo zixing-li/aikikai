@@ -5,6 +5,7 @@ import './index.css';
 import App from './containers/App';
 import Home from './components/Home';
 import Gallery from './components/Gallery';
+import Location from './components/Location';
 import registerServiceWorker from './registerServiceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -14,9 +15,8 @@ ReactDOM.render((
     <App>
       <Route exact path="/" component={Home} />
       <Route path="/gallery" component={Gallery} />
-      {/* <Route path="/collection" component={Collection} /> */}
+      <Route path="/location" component={Location} />
       {/*<Route path="/album" component={()=>(<div><Album/><PlayerBar/></div>)} />*/}
-      {/* <Route path="/album" component={Album} /> */}
     </App>
   </BrowserRouter>
 ), document.getElementById('root'));

@@ -22,7 +22,9 @@ const Navigation = () => {
           <LinkContainer to="gallery">
             <NavItem eventKey={1}>Gallery</NavItem>
           </LinkContainer>
-          <NavItem eventKey={2} href="#">Location</NavItem>
+          <LinkContainer to="location">
+            <NavItem eventKey={2} href="#">Location</NavItem>
+          </LinkContainer>
           <NavDropdown eventKey={3} title="Learn more">
             <MenuItem eventKey={3.1}>Aikido</MenuItem>
             <MenuItem eventKey={3.2}>Instructors</MenuItem>

@@ -8,13 +8,13 @@ const Gallery = () => {
   return (
     <Grid>
       <Row>
-        <Col xs={6} md={3}>
+        <Col xs={6} md={4}>
           <Thumbnail href="#" alt="171x180" src={picture1} />
         </Col>
-        <Col xs={6} md={3}>
+        <Col xs={6} md={4}>
           <Thumbnail href="#" alt="171x180" src={picture2} />
         </Col>
-        <Col xs={6} md={3}>
+        <Col xs={6} md={4}>
           <Thumbnail href="#" alt="171x180" src={picture3} />
         </Col>
       </Row>
