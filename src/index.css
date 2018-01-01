@@ -1,8 +1,10 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 0 200px 0; /* bottom padding same as footer height */
   font-family: sans-serif;
   background-color: #F9F9F9;
+  min-height: 100vh;
+  position: relative;
 }
 
 /* remove padding and margin from react-bootstrap grid */
@@ -74,6 +76,7 @@ img {
 }
 
 .footer {
+  position: absolute;
   height: 200px;
   left: 0;
   bottom: 0;
@@ -85,7 +88,6 @@ img {
   text-align: left;
   padding: 15px 30px;
   line-height: 40px;
-  margin-top: 5px;
 }
 
 hr {
