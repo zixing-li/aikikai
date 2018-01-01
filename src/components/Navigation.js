@@ -28,7 +28,7 @@ const Navigation = () => {
           <NavDropdown eventKey={3} title="Learn more">
             <LinkContainer to="aikido"><MenuItem eventKey={3.1}>Aikido</MenuItem></LinkContainer>
             <LinkContainer to="instructors"><MenuItem eventKey={3.2}>Instructors</MenuItem></LinkContainer>
-            <LinkContainer to="schedule&fee"><MenuItem eventKey={3.3}>Schedule & Fees</MenuItem></LinkContainer>
+            <LinkContainer to="schedule&fees"><MenuItem eventKey={3.3}>Schedule & Fees</MenuItem></LinkContainer>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
