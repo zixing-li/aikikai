@@ -10,7 +10,7 @@ const Gallery = () => {
     <Grid fluid className="gallery">
       <Row>
         <Col xs={12} sm={12} md={6} lg={4}>
-          <Thumbnail href="#" alt="171x180" src={picture1} />
+          <Thumbnail href="#" alt="171x180" src={picture1} data-toggle="popover"/>
         </Col>
         <Col xs={12} sm={12} md={6} lg={4}>
           <Thumbnail href="#" alt="171x180" src={picture2} />
