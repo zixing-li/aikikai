@@ -27,3 +27,20 @@ const Gallery = () => {
 }
 
 export default Gallery;
+
+// import Lightbox from 'react-images';
+
+// export default class Gallery extends React.Component {
+//   render() {
+//     return (
+//       <Lightbox
+//         images={[{ src: 'http://example.com/img1.jpg' }, { src: 'http://example.com/img2.jpg' }]}
+//         isOpen={this.state.lightboxIsOpen}
+//         onClickPrev={this.gotoPrevious}
+//         onClickNext={this.gotoNext}
+//         onClose={this.closeLightbox}
+//       />
+//     );
+//   }
+// }
+
