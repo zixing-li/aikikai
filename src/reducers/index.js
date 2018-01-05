@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-import GalleryReducer from "./galleryReducer";
+import LightboxReducer from "./lightboxReducer";
 import ImagesReducer from './imagesReducer'
 
 const rootReducer = combineReducers({
-  gallery: GalleryReducer,
+  lightbox: LightboxReducer,
   images: ImagesReducer,
 });
 

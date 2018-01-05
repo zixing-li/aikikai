@@ -8,7 +8,7 @@ const Footer = () => {
       Follow us:&nbsp;&nbsp;
       <FontAwesome name="instagram"/>&nbsp;Instagram &nbsp;<FontAwesome name="yelp"/>&nbsp;Yelp &nbsp;<FontAwesome name="facebook-official"/>&nbsp;Facebook
       <br/>
-      <Link to="/Location">Location</Link>
+      <Link to="/Location" style={{color: 'black'}}>Location</Link>
       <br/>
       <a href="mailto:nyeaikikai@gmail.com" title="mailto:nyeaikikai@gmail.com">Contact Us</a>
       <hr/>

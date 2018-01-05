@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 import App from './components/App';
 import Home from './components/Home';
-import GalleryContainer from './containers/GalleryContainer';
+import Gallery from './containers/Gallery';
 import Location from './components/Location';
 import Aikido from './components/Aikido';
 import Instructors from './components/Instructors';
@@ -18,7 +18,7 @@ ReactDOM.render((
     <Provider store={store}>
       <App>
         <Route exact path="/" component={Home} />
-        <Route path="/gallery" component={GalleryContainer} />
+        <Route path="/gallery" component={Gallery} />
         <Route path="/location" component={Location} />
         <Route path="/aikido" component={Aikido} />
         <Route path="/instructors" component={Instructors} />

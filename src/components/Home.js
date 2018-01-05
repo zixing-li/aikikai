@@ -15,7 +15,7 @@ const Home = () => {
       <Grid fluid>
         <Row className="illustration">
           <Col xs={12} sm={6} md={8}>
-            <img src={picture2} alt="Aikido Picture" className="illustration-pic" />
+            <img src={picture2} alt="Aikido technique" className="illustration-pic" />
           </Col>
           <Col xs={12} sm={6} md={4} className="text-container">
             <div className="move-right">
@@ -30,12 +30,12 @@ const Home = () => {
             </div>
           </Col>
           <Col xs={12} sm={6} md={8}>
-            <img src={picture3} alt="Aikido Picture" className="illustration-pic" />
+            <img src={picture3} alt="Aikido technique" className="illustration-pic" />
           </Col>
         </Row>
         <Row className="illustration">
           <Col xs={12} sm={6} md={8}>
-            <img src={picture1} alt="Aikido Picture" className="illustration-pic" />
+            <img src={picture1} alt="Aikido technique" className="illustration-pic" />
           </Col>
           <Col xs={12} sm={6} md={4} className="text-container">
             <div className="move-right">
