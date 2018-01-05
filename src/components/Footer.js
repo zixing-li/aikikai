@@ -6,7 +6,17 @@ const Footer = () => {
   return (
     <div className="footer">
       Follow us:&nbsp;&nbsp;
-      <FontAwesome name="instagram"/>&nbsp;Instagram &nbsp;<FontAwesome name="yelp"/>&nbsp;Yelp &nbsp;<FontAwesome name="facebook-official"/>&nbsp;Facebook
+      <a href="#" title="#">
+        <FontAwesome name="instagram"/>&nbsp;Instagram
+      </a>
+      &nbsp;&nbsp;
+      <a href="" title="">
+        <FontAwesome name="yelp"/>&nbsp;Yelp
+      </a>
+      &nbsp;&nbsp;
+      <a href="" title="">
+        <FontAwesome name="facebook-official"/>&nbsp;Facebook
+      </a>
       <br/>
       <Link to="/Location" style={{color: 'black'}}>Location</Link>
       <br/>

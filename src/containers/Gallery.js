@@ -14,17 +14,15 @@ import {
 class Gallery extends Component {
 
   renderGallery = () => {
-    
     const images = this.props.images;
-  
     if (!images) {return;}
-  
+
     const gallery = images.map((obj, i) => {
       return (
-        <Col sm={12} md={6} lg={4} key={`col${i}`} >
+        <Col sm={12} md={6} lg={4} key={`col${i}`} className="thumbnail-container-col">
           <Thumbnail 
             href= "#" 
-            src={require(`../assets/o-${i+1}.png`)} 
+            src={require(`../assets/o (${i+1}).jpg`)} 
             alt="" 
             key={i}
             onClick={(e) => this.props.openLightbox(i, e)}

@@ -50,7 +50,7 @@ img {
   margin: 5px 15px;
   height: 65px;
   width: 65px;
-  cursor: pointer; /* cursor changes to pointer on hover */
+  cursor: pointer; 
 }
 
 .logo-name {
@@ -97,7 +97,6 @@ img {
   text-align: left;
   padding: 15px 30px;
   line-height: 40px;
-  /* need to change link color to black */
 }
 
 .footer a:link{
@@ -177,20 +176,26 @@ hr {
 
 /* Gallery Component */
 .gallery {
-  margin: 2%;
+  margin: 1%;
 }
 
 .thumbnail{        
-  width: 500px; 
+  width: 510px; 
   height: 350px;
   overflow: hidden;
   margin: 5px;
   padding: 5px;
 }
 
+.thumbnail-container-col {
+  display: flex;
+  justify-content: center;
+}
+
 .thumbnail img{
-  width: 500px;
-  height: 350px;
+  /* width: 500px; */
+  /* height: 350px; */
+  display: inline-block;
 }
 
 /* Location Component */
@@ -248,11 +253,11 @@ hr {
 }
 
 .instructors .banner-content {
-  background-image: url(../assets/web-2-edit.jpg);
+  background-image: url('../assets/o (0).jpg');
 }
 
 .schedule-fees .banner-content {
-  background-image: url(../assets/o-5.jpg);
+  background-image: url('../assets/o (11).jpg');
 }
 
 .banner-content .banner-title {

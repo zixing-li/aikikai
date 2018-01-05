@@ -16,7 +16,6 @@ const Schedule = () => {
         </div>
         <img src={schedule} alt="schedule" className="info-pic" />
         <img src={fee} alt="fee" className="info-pic" />
-        <img src={require('../assets/o-1.png')} alt="" />
       </div>
     </div>
   )
