@@ -28,6 +28,7 @@ class GalleryContainer extends Component {
       console.log('obj.src ', `require('${obj.src}')`)
       console.log('obj.src2', "require('"+obj.src+"')")
       console.log('require ', `require('../assets/o-1.png')`)
+      console.log('images', images)
       return (
         <a
           href={obj.src}
@@ -36,30 +37,16 @@ class GalleryContainer extends Component {
           onClick={(e) => this.props.openLightbox(i, e)}
         >
           gallery
-          <img src={`require('${obj.src}')`} alt="" />
+          {/* <img src={require(`${obj.src}`)} alt="" /> */}
           {/* <img src={`picture${obj.src}`} alt="" /> */}
           {/* <img src={picture1} alt="" /> */}
           {/* <img src={"require('"+obj.src+"')"} alt="" /> */}
           {/* <img src={obj.src} alt="" /> */}
           {/* <img src={require('../assets/o-1.png')} alt="" /> */}
+          <img src={require(`../assets/o-${i+1}.png`)} alt="" />
         </a>
       );
     });
-
-    // const gallery = () => {
-    //   console.log(this.props.images.filter(image=>image.useForDemo))
-    //   // this.props.images.map(image, i)
-    //   return (
-    //     <a
-    //       href='{obj.src}'
-    //       // className={css(classes.thumbnail, classes[obj.orientation])}
-    //       key={1}
-    //       onClick={(e) => this.props.openLightbox(1, e)}
-    //     >
-    //       <img src={require(`../assets/o-1.png`)} alt="" />
-    //     </a>
-    //   );
-    // };
 
     return (
       <div>
@@ -68,9 +55,6 @@ class GalleryContainer extends Component {
     );
   }
 
-  // componentWillMount() {
-  //   this.renderGallery();
-  // }
 	render () {
     console.log('images: ', this.props.images)
 		return (

@@ -8,7 +8,7 @@ import { Lightbox } from 'react-images';
 
 // let array = ["o-1", "o-2", "o-3"]
 
-let array = []
+// let array = []
 
 // for (let i=1; i<=3; i++) {
 //   array.push("o-"+i)

@@ -1,6 +1,7 @@
 export default function() {
-  return [
-    { src: '../assets/o-1.png' },
-    { src: '../assets/o-2.png' }
-  ];
+  let array = [];
+  for (let i=1; i<=2; i++) {
+    array.push({src: require(`../assets/o-${i}.png`)})
+  };
+  return array;
 }
