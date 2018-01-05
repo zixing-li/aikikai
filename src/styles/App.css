@@ -233,14 +233,14 @@ hr {
 /* Shared Banner Component */
 .banner-content {
   position: relative;
-  min-height: 350px;  
+  min-height: 400px;  
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .aikido .banner-content {
-  background-image: url(../assets/ky-yamada-kokyu-edit-2.jpg);
+  background-image: url(../assets/aikido4-1.jpg);
 }
 
 .instructors .banner-content {

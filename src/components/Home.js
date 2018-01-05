@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
 import picture1 from '../assets/o-1.png'
 import picture2 from '../assets/o-2.png'
 import picture3 from '../assets/o-3.png'
-import test from '../assets/o-1.png'
+// import test from '../assets/o-1.png'
 
 // xs should move to new line
 const Home = () => {

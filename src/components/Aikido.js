@@ -1,5 +1,4 @@
 import React from 'react';
-import map from '../assets/googlemaps.jpg'
 
 const Aikido = () => {
   return (

@@ -25,7 +25,7 @@ const Navigation = () => {
           <LinkContainer to="location">
             <NavItem eventKey={2} href="#">Location</NavItem>
           </LinkContainer>
-          <NavDropdown eventKey={3} title="Learn more">
+          <NavDropdown eventKey={3} title="Learn more" id="basic-nav-dropdown">
             <LinkContainer to="aikido"><MenuItem eventKey={3.1}>Aikido</MenuItem></LinkContainer>
             <LinkContainer to="instructors"><MenuItem eventKey={3.2}>Instructors</MenuItem></LinkContainer>
             <LinkContainer to="schedule&fees"><MenuItem eventKey={3.3}>Schedule & Fees</MenuItem></LinkContainer>
