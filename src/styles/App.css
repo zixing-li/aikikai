@@ -99,7 +99,7 @@ img {
   line-height: 40px;
 }
 
-.footer a:link{
+.footer a {
   color: black;
 }
 
@@ -147,6 +147,7 @@ hr {
 
 .illustration {
   display: flex;
+  /* flex-flow: row wrap; */
   align-items: center;
 }
 
@@ -193,14 +194,16 @@ hr {
 }
 
 .thumbnail img{
-  /* width: 500px; */
-  /* height: 350px; */
-  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
 }
 
 /* Location Component */
 .info-pic {
   display: block;
+  max-width: 600px;
 }
 
 .location-info {

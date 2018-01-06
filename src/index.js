@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
-import App from './components/App';
+import App from './containers/App';
 import Home from './components/Home';
 import Gallery from './containers/Gallery';
 import Location from './components/Location';
