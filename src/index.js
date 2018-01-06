@@ -9,7 +9,6 @@ import Aikido from './components/Aikido';
 import Instructors from './components/Instructors';
 import Schedule from './components/Schedule';
 import registerServiceWorker from './registerServiceWorker';
-
 import { Provider } from 'react-redux';
 import store from './store';
 

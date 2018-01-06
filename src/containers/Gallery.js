@@ -7,7 +7,6 @@ import {
   closeLightbox,
   gotoNext,
   gotoPrevious,
-  gotoImage,
   openLightbox,
  } from '../actions/actionCreators';
 
@@ -62,7 +61,6 @@ export default connect(
     closeLightbox,
     gotoNext,
     gotoPrevious,
-    gotoImage,
     openLightbox,
    }, dispatch)
 )(Gallery);

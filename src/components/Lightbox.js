@@ -8,8 +8,6 @@ const LightboxComponent = ({
   closeLightbox,
   gotoNext,
   gotoPrevious,
-  gotoImage,
-  openLightbox
 }) => {
   return (
     <Lightbox
@@ -18,7 +16,6 @@ const LightboxComponent = ({
         isOpen={lightboxIsOpen}
         onClickNext={gotoNext}
         onClickPrev={gotoPrevious}
-        onClickThumbnail={this.gotoImage}
         onClose={closeLightbox}
       />
   )

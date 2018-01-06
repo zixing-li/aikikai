@@ -14,8 +14,6 @@ export default function(state = initialState, action) {
       return {...state, currentImage: state.currentImage - 1};
     case 'GO_TO_NEXT':
       return {...state, currentImage: state.currentImage + 1};
-    case 'GO_TO_IMAGE':
-      return {...state, currentImage: action.index};
     default: 
       return state;
   }

@@ -15,8 +15,3 @@ export const gotoPrevious = () => ({
 export const gotoNext = () => ({
   type: 'GO_TO_NEXT'
 });
-
-export const gotoImage = (index) => ({
-  type: 'GO_TO_IMAGE',
-  index
-});
