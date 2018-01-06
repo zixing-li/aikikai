@@ -22,7 +22,7 @@ class Gallery extends Component {
         <Col sm={12} md={6} lg={4} key={`col${i}`} className="thumbnail-container-col">
           <Thumbnail 
             href= "#" 
-            src={require(`../assets/o (${i}).jpg`)} 
+            src={require(`../assets/images/o (${i}).jpg`)} 
             alt="" 
             key={i}
             onClick={(e) => this.props.openLightbox(i, e)}

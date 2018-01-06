@@ -1,6 +1,6 @@
 import React from 'react';
-import schedule from '../assets/schedule.jpg';
-import fee from '../assets/fee.jpg';
+import schedule from '../assets/images/schedule.jpg';
+import fee from '../assets/images/fee.jpg';
 
 const Schedule = () => {
   return (

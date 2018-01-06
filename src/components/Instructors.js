@@ -1,7 +1,7 @@
 import React from 'react';
-import sensei from '../assets/Sensei.jpg';
-import kim from '../assets/Kim.jpg';
-import nacho from '../assets/Nacho.jpg';
+import sensei from '../assets/images/Sensei.jpg';
+import kim from '../assets/images/Kim.jpg';
+import nacho from '../assets/images/Nacho.jpg';
 
 const Instructors = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
-import map from '../assets/googlemaps.jpg'
+import map from '../assets/images/googlemaps.jpg'
 
 const Location = () => {
   return (

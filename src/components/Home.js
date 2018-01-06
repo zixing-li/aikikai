@@ -1,8 +1,8 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
-import picture1 from '../assets/o-1.jpg'
-import picture2 from '../assets/o-2.jpg'
-import picture3 from '../assets/o-3.jpg'
+import picture1 from '../assets/images/o-1.jpg'
+import picture2 from '../assets/images/o-2.jpg'
+import picture3 from '../assets/images/o-3.jpg'
 
 const Home = () => {
   return (

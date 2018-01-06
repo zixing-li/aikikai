@@ -1,7 +1,7 @@
 import React from 'react';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 import { Navbar, NavItem, Nav, NavDropdown, MenuItem } from 'react-bootstrap';
-import logo from '../assets/USAF logo.2.jpg'
+import logo from '../assets/images/USAF logo.2.jpg'
 
 const Navigation = () => {
   return (

@@ -116,7 +116,7 @@ hr {
 .hero-content {
   position: relative;
   min-height: 895px;  
-  background-image: url(../assets/o-0.jpg);
+  background-image: url(../../assets/images/o-0.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -246,15 +246,15 @@ hr {
 }
 
 .aikido .banner-content {
-  background-image: url(../assets/aikido4-1.jpg);
+  background-image: url(../../assets/images/aikido4-1.jpg);
 }
 
 .instructors .banner-content {
-  background-image: url('../assets/o (0).jpg');
+  background-image: url('../../assets/images/o (0).jpg');
 }
 
 .schedule-fees .banner-content {
-  background-image: url('../assets/o (11).jpg');
+  background-image: url('../../assets/images/o (11).jpg');
 }
 
 .banner-content .banner-title {
