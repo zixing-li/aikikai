@@ -163,6 +163,7 @@ hr {
 .text-container {
   text-align: center;
   padding: 5% !important;
+  margin: 40px 0;
 }
 
 /* Gallery Component */

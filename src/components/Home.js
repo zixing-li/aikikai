@@ -24,7 +24,7 @@ const Home = () => {
           <Col xs={12} sm={6} md={8} smPush={6} mdPush={4}>
             <img src={picture3} alt="Aikido technique" className="illustration-pic" />
           </Col>
-          <Col xs={12} sm={6} md={4} lg={3} lgOffset={1} smPull={6} mdPull={8} className="text-container">
+          <Col xs={12} sm={6} md={4} lg={3} lgOffset={-1} smPull={5} mdPull={7} className="text-container">
             <span className="illustration-text">NYEA offers Aikido classes for adults and children. Adults will find the Aikido experience rewarding, as they achieve the ideal balance of physical and mental training. The training at NYEA is vigorous and intense</span>
           </Col>
         </Row>
