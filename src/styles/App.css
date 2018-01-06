@@ -191,18 +191,22 @@ hr {
 }
 
 /* Location Component */
-.info-pic {
+.location {
+  padding: 5%;
+}
+
+.location img {
+  width: 100%;
+  height: auto;
   display: block;
-  max-width: 600px;
 }
 
 .location-info {
-  width: 100%;                   
-  /* text-align: center; */
+  text-align: left;
   font-size: 1.25rem;
   -webkit-text-stroke: .5px black;
   line-height: 50px;
-  padding: 5%;
+  margin-left: 25px;
 }
 
 /* Aikido Component */
