@@ -162,7 +162,7 @@ hr {
 
 .text-container {
   text-align: center;
-  padding: 5% !important;
+  padding: 3% !important;
   margin: 40px 0;
 }
 
@@ -223,11 +223,11 @@ hr {
 
 /* Schedule & Fee Component */
 .schedule-fees-section {
-  padding: 3% 15% 10% 15%;
+  padding: 1% 15% 10% 15%;
 }
 
 .schedule-fees img {
-  width: 100%
+  max-width: 100%;
 }
 
 .schedule-info {

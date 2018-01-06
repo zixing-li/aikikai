@@ -14,8 +14,10 @@ const Schedule = () => {
           <br/>
           Promotion tests are conducted three times a year for both adults and children. Aikido is non-competitive, and testing is optional; however, if you wish to be promoted, it is important to attend class regularly. In order to make progress, students are encouraged to train at least three times a week. Adult kyu ranking (white belts) is awarded by USAF, and upon reaching black belt level, the rank is awarded by the Aikikai Foundation, Tokyo, Japan.
         </div>
-        <img src={schedule} alt="schedule" className="info-pic" />
-        <img src={fee} alt="fee" className="info-pic" />
+        Schedule <hr/>
+        <img src={schedule} alt="schedule"/>
+        Fees <hr/>
+        <img src={fee} alt="fee"/>
       </div>
     </div>
   )
