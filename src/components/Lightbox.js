@@ -11,13 +11,13 @@ const LightboxComponent = ({
 }) => {
   return (
     <Lightbox
-        currentImage={currentImage}
-        images={images}
-        isOpen={lightboxIsOpen}
-        onClickNext={gotoNext}
-        onClickPrev={gotoPrevious}
-        onClose={closeLightbox}
-      />
+      currentImage={currentImage}
+      images={images}
+      isOpen={lightboxIsOpen}
+      onClickNext={gotoNext}
+      onClickPrev={gotoPrevious}
+      onClose={closeLightbox}
+    />
   )
 }
 

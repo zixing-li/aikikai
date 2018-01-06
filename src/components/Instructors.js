@@ -12,16 +12,13 @@ const Instructors = () => {
       <div className="instructors-bio">
         <img src={sensei} alt="Sensei" />
         <div style={{textAlign:"center", marginTop:"10px"}}>
-          <b>Chief Instructor</b>
-          <br/>
+          <b>Chief Instructor</b><br/>
           Ken Yamazaki Sensei, Godan & Shidoin
         </div>
         <br/>
-        Biography: Ken Yamazaki, 5th dan Aikikai, is the chief instructor of NY Eastside Aikikai, affiliated with United States Aikido Federation. Yamazaki Sensei began Aikido and Zen Buddhism studies in 1989 with Reverend Joseph Jarman, a Buddhist priest and jazz musician; he then continued his training with Doshu Kisshomaru Ueshiba, Fumio Toyoda and many prominent Aikido shihans in Japan and the U.S.  From 2005 to 2012 he was a direct student and uchideshi of Yasuo Kobayashi Shihan, 8th Dan, disciple of Aikido founder, Morihei Ueshiba.  At present, Yamazaki Sensei is a direct student of Yoshimitsu Yamada Shihan, 8th Dan, also a disciple of Morihei Ueshiba.
-        <br/>
+        Biography: Ken Yamazaki, 5th dan Aikikai, is the chief instructor of NY Eastside Aikikai, affiliated with United States Aikido Federation. Yamazaki Sensei began Aikido and Zen Buddhism studies in 1989 with Reverend Joseph Jarman, a Buddhist priest and jazz musician; he then continued his training with Doshu Kisshomaru Ueshiba, Fumio Toyoda and many prominent Aikido shihans in Japan and the U.S.  From 2005 to 2012 he was a direct student and uchideshi of Yasuo Kobayashi Shihan, 8th Dan, disciple of Aikido founder, Morihei Ueshiba.  At present, Yamazaki Sensei is a direct student of Yoshimitsu Yamada Shihan, 8th Dan, also a disciple of Morihei Ueshiba.<br/>
         Yamazaki Sensei has been instructing Aikido since 1992 and, prior to becoming a Shidoin for U.S. Aikido Federation, has served on the teaching staff of Aikido Association of America and Aikido Kobayashi Dojo.  He is also a world-renowned jazz musician who has been performing professionally since 1978.
-        <br/>
-        <br/>
+        <br/><br/>
         <img src={kim} alt="Kim" />
         <div style={{textAlign:"center", marginTop:"10px"}}>
           <b>Instructor, Children’s Program</b>
@@ -30,12 +27,10 @@ const Instructors = () => {
         </div>
         <br/>
         Biography: Kim Johnston, 3rd dan Aikikai, is the instructor for the children’s Aikido program at NY Eastside Aikikai. She has been practicing Aikido for over a decade. Kim is also a Shiatsu practitioner.  Certified by the Ohashi Institute since 1997, Kim was a Shiatsu instructor at the Ohashi Institute as well as the Pacific College of Oriental Medicine. Kim also holds an MFA in modern dance.
-        <br/>
-        <br/>
+        <br/><br/>
         <img src={nacho} alt="Nacho" />
         <div style={{textAlign:"center", marginTop:"10px"}}>
-          <b>Instructor</b>
-          <br/>
+          <b>Instructor</b><br/>
           Nacho Mena, Shodan
         </div>
         <br/>
