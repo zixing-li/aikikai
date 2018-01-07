@@ -6,6 +6,8 @@ body {
   background-color: #F9F9F9;
   min-height: 100vh;
   position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll !important;
 }
 
 /* remove padding and margin from react-bootstrap grid fluid */
@@ -16,7 +18,9 @@ div.container-fluid {
 
 div.row {
   margin-right: 0px;
-  margin-left: 0px
+  margin-left: 0px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 div.col-lg-1,div.col-lg-10,div.col-lg-11,div.col-lg-12,div.col-lg-2,div.col-lg-3,div.col-lg-4,div.col-lg-5,div.col-lg-6,div.col-lg-7,div.col-lg-8,div.col-lg-9,
