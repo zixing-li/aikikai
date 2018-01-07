@@ -137,17 +137,6 @@ hr {
   background-size: cover;
 }
 
-@media only screen and (max-device-width: 480px) {
-  .hero-content {
-    position: relative;
-    min-height: 595px;  
-    background-image: url(../../assets/images/o-0.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
-}
-
 .hero-content .hero-title {
   position: absolute;           
   top: 40%;                      
@@ -304,4 +293,36 @@ hr {
      -1px 1px 0 #000,
       1px 1px 0 #000;
   font-weight: 900;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .hero-content {
+    position: relative;
+    min-height: 595px;  
+    background-image: url(../../assets/images/o-0.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  h3 {
+    text-align: center;
+    font-size: 90%;
+  }
+  .logo {
+    float: left;
+    margin: 5px 15px;
+    height: 40px;
+    width: 40px;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+  .navbar-brand {
+    height: auto;
+    line-height: auto;
+    padding: 0 15px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    line-height: auto;
+  }
 }
