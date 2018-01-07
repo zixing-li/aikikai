@@ -295,7 +295,7 @@ hr {
   font-weight: 900;
 }
 
-@media only screen and (max-device-width: 480px) {
+/* @media only screen and (max-device-width: 480px) { */
   .hero-content {
     position: relative;
     min-height: 550px;  
@@ -306,27 +306,29 @@ hr {
   }
   h3 {
     position: absolute;
-    line-height: 55px;
+    line-height: 45px;
     text-align: center;
     font-size: 95%;
     margin: 0;
-    left: -35px;
+    left: -55px;
   }
   .logo {
     float: left;
-    margin: 5px 5px 5px 10px;
-    height: 50px;
-    width: 50px;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
   }
   .navbar {
     min-height: 25px;
     margin-bottom: 0;
   }
   .navbar-brand {
-    height: auto;
-    line-height: 25px;
+    height: 0;
+  }
+  .navbar-toggle {
+    margin-top: 10px;
   }
   .navbar-default .navbar-nav > li > a {
     line-height: 25px;
   }
-}
+/* } */
