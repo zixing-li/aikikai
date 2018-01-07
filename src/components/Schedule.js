@@ -6,7 +6,7 @@ const Schedule = () => {
   return (
     <div className="schedule-fees">
       <div className="banner-content">
-        <h2 className="banner-title">Schedule & Fee</h2>
+        <h2 className="banner-title">Schedule & Fees</h2>
       </div>
       <div className="schedule-fees-section">
         <div className="schedule-info">
