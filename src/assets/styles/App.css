@@ -6,9 +6,9 @@ body {
 }
 
 .App {
-  overflow-x: hidden;
-  position: relative;
-  min-height: 100vh;
+  overflow-x: hidden; /* to prevent white gap at right side of page when using mobile browsers */
+  position: relative; /* to prevent white gap at right side of page when using mobile browsers */
+  min-height: 100vh; /* to make footer stay at bottom */
   padding: 0 0 200px 0; /* bottom padding same as footer height */
 }
 
