@@ -298,7 +298,7 @@ hr {
 @media only screen and (max-device-width: 480px) {
   .hero-content {
     position: relative;
-    min-height: 545px;  
+    min-height: 550px;  
     background-image: url(../../assets/images/o-0.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -306,7 +306,7 @@ hr {
   }
   h3 {
     position: absolute;
-    line-height: 45px;
+    line-height: 55px;
     text-align: center;
     font-size: 95%;
     margin: 0;
@@ -314,9 +314,9 @@ hr {
   }
   .logo {
     float: left;
-    margin: 5px 5px 5px 15px;
-    height: 45px;
-    width: 45px;
+    margin: 5px 5px 5px 10px;
+    height: 50px;
+    width: 50px;
   }
   .navbar {
     min-height: 25px;
