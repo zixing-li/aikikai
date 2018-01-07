@@ -298,31 +298,37 @@ hr {
 @media only screen and (max-device-width: 480px) {
   .hero-content {
     position: relative;
-    min-height: 595px;  
+    min-height: 545px;  
     background-image: url(../../assets/images/o-0.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
   }
   h3 {
+    position: absolute;
+    left: -75px;
+    line-height: 25px;
     text-align: center;
     font-size: 90%;
+    margin: 0;
+    padding: 0;
   }
   .logo {
     float: left;
-    margin: 5px 15px;
-    height: 40px;
-    width: 40px;
+    margin: 5px 5px 5px 15px;
+    height: 25px;
+    width: 25px;
   }
   .navbar {
+    min-height: 0px;
     margin-bottom: 0px;
   }
   .navbar-brand {
-    height: auto;
-    line-height: auto;
-    padding: 0 15px;
+    height: 0;
+    line-height: 25px;
+    padding: 0;
   }
   .navbar-default .navbar-nav > li > a {
-    line-height: auto;
+    line-height: 0;
   }
 }
