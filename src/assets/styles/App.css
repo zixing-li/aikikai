@@ -1,14 +1,15 @@
 /* Shared styles */
 body {
   margin: 0;
-  padding: 0 0 200px 0; /* bottom padding same as footer height */
   font-family: sans-serif;
   background-color: #F9F9F9;
-  min-height: 100vh;
-  height:100%;
-  position: relative;
+}
+
+.App {
   overflow-x: hidden;
-  overflow-y: scroll !important;
+  position: relative;
+  min-height: 100vh;
+  padding: 0 0 200px 0; /* bottom padding same as footer height */
 }
 
 /* remove padding and margin from react-bootstrap grid fluid */
@@ -19,9 +20,7 @@ div.container-fluid {
 
 div.row {
   margin-right: 0px;
-  margin-left: 0px;
-  padding-left: 0;
-  padding-right: 0;
+  margin-left: 0px
 }
 
 div.col-lg-1,div.col-lg-10,div.col-lg-11,div.col-lg-12,div.col-lg-2,div.col-lg-3,div.col-lg-4,div.col-lg-5,div.col-lg-6,div.col-lg-7,div.col-lg-8,div.col-lg-9,
