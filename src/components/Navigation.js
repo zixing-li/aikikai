@@ -11,7 +11,7 @@ const Navigation = () => {
           <IndexLinkContainer to="/">
             <div>
               <img src={logo} alt="Aikido Logo" className="logo" />
-              <h3 className="logo-name">New York Eastside Aikikai</h3>
+              <h3 className="logo-name">NY Eastside Aikikai</h3>
             </div>
           </IndexLinkContainer>
         </Navbar.Brand>
