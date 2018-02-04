@@ -59,6 +59,26 @@ img {
   margin: auto;
 }
 
+table, td, th {    
+  border: 2px solid black;
+  text-align: center;
+  table-layout: fixed;
+}
+
+table {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  /* width: 40%; */
+  background-color: white;
+}
+
+th, td {
+  padding: 15px;
+  width: 140px;
+}
+
 /* Navigation Component */
 .logo {
   float: left;
@@ -130,7 +150,7 @@ hr {
 /* Home Component */
 .hero-content {
   position: relative;
-  min-height: 895px;  
+  min-height: 880px;
   background-image: url(../../assets/images/o-0.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -139,7 +159,7 @@ hr {
 
 .hero-content .hero-title {
   position: absolute;           
-  top: 40%;                      
+  top: 45%;                      
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -236,6 +256,10 @@ hr {
   line-height: 20px;
 }
 
+.instructors img {
+  width: 170px;
+}
+
 /* Schedule & Fee Component */
 .schedule-fees-section {
   padding: 1% 15% 3% 15%;
@@ -274,7 +298,7 @@ hr {
 
 .banner-content .banner-title {
   position: absolute;           
-  top: 40%;                      
+  top: 45%;                      
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
