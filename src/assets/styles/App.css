@@ -67,7 +67,7 @@ table, td, th {
 
 table {
   margin: auto;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
   border-collapse: collapse;
   /* width: 40%; */
@@ -246,13 +246,13 @@ hr {
 
 /* Aikido Component */
 .aikido-description {
-  padding: 3% 15%;
+  padding: 3% 25%;
   line-height: 20px;
 }
 
 /* Instructors Component */
 .instructors-bio {
-  padding: 3% 15%;
+  padding: 3% 25%;
   line-height: 20px;
 }
 
@@ -262,11 +262,12 @@ hr {
 
 /* Schedule & Fee Component */
 .schedule-fees-section {
-  padding: 1% 15% 3% 15%;
+  padding: 1% 20% 3% 20%;
 }
 
 .schedule-fees img {
   max-width: 100%;
+  margin-bottom: 3%;
 }
 
 .schedule-info {
@@ -357,5 +358,19 @@ hr {
   }
   .banner-content {
     min-height: 300px;  
+  }
+}
+
+@media only screen and (min-device-width: 2560px) {
+  .hero-content {
+    position: relative;
+    min-height: 1080px;  
+    background-image: url(../../assets/images/o-0.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .banner-content {
+    min-height: 700px;  
   }
 }
