@@ -228,14 +228,13 @@ hr {
 
 /* Location Component */
 .location {
-  padding: 3% 5%;
+  padding: 3% 12%;
 }
 
 .location img {
   width: 100%;
   height: auto;
   display: block;
-  
 }
 
 .location-info {
@@ -383,6 +382,11 @@ hr {
   .schedule-fees-section {
     padding: 1% 5% 3% 5%;
   }
+    
+  /* Location Component */
+  .location {
+    padding: 3%;
+  }
 }
 
 @media only screen and (min-device-width: 2560px) {
@@ -397,6 +401,7 @@ hr {
   .banner-content {
     min-height: 700px;  
   }
+
   /* Aikido Component */
   .aikido-description {
     padding: 3% 30%;
