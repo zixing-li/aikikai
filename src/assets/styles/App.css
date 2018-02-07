@@ -384,8 +384,9 @@ hr {
   }
     
   /* Location Component */
-  .location {
-    padding: 3%;
+  .location p {
+    padding: 3% 5%;
+    line-height: 20px;
   }
 }
 
