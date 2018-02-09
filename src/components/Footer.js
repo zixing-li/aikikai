@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       Follow us:&nbsp;&nbsp;
-      <a href="https://www.instagram.com/ny_eastside_aikikai/?hl=ne" title="https://www.instagram.com/ny_eastside_aikikai/?hl=ne" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.instagram.com/ny_eastside_aikikai/" title="https://www.instagram.com/ny_eastside_aikikai/" target="_blank" rel="noopener noreferrer">
         <FontAwesome name="instagram"/>&nbsp;Instagram
       </a>
       &nbsp;&nbsp;

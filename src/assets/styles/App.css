@@ -150,7 +150,7 @@ hr {
 /* Home Component */
 .hero-content {
   position: relative;
-  min-height: 700px;
+  min-height: 750px;
   background-image: url(../../assets/images/o-0.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -165,7 +165,31 @@ hr {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 100%;                   
-  text-align: center;             
+  text-align: center; 
+  font-size: 4rem;               
+  text-transform: uppercase;      
+  letter-spacing: 0.5rem;   
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      2px 2px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+  font-weight: 900;
+}
+
+.hero-title-home {
+  position: absolute;           
+  top: 45%;                      
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;                   
+  text-align: left; 
+  text-indent: 1.5em;            
   font-size: 4rem;               
   text-transform: uppercase;      
   letter-spacing: 0.5rem;   

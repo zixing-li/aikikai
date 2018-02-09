@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <div className="hero-content">
-        <h2 className="hero-title">New York Eastside Aikikai<br /><br />Martial Arts & Cultural Center</h2>
+        <h2 className="hero-title-home"><p>New York Eastside Aikikai</p></h2>
       </div>      
       <Grid fluid>
         <Row className="illustration">
