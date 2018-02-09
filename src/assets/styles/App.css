@@ -360,6 +360,10 @@ hr {
     background-position: center center;
     background-size: cover;
   }
+  .hero-title-home {            
+    text-align: center; 
+    text-indent: 0em;            
+  }
   h3 {
     position: absolute;
     line-height: 45px;
