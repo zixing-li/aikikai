@@ -151,7 +151,7 @@ hr {
 .hero-content {
   position: relative;
   min-height: 750px;
-  background-image: url(../../assets/images/o-0.jpg);
+  background-image: url(../../assets/images/o-0-alt.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -182,14 +182,14 @@ hr {
 
 .hero-title-home {
   position: absolute;           
-  top: 45%;                      
+  top: 53%;                      
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 100%;                   
-  text-align: left; 
-  text-indent: 1.5em;            
+  text-align: center; 
+  /* text-indent: -30%;             */
   font-size: 4rem;               
   text-transform: uppercase;      
   letter-spacing: 0.5rem;   
@@ -355,9 +355,9 @@ hr {
   .hero-content {
     position: relative;
     min-height: 550px;  
-    background-image: url(../../assets/images/o-0.jpg);
-    background-repeat: no-repeat;
-    background-position: 75% 50%;
+    /* background-image: url(../../assets/images/o-0.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 75% 50%; */
     background-size: cover;
   }
   .hero-title-home {            
@@ -422,7 +422,7 @@ hr {
   .hero-content {
     position: relative;
     min-height: 1080px;  
-    background-image: url(../../assets/images/o-0.jpg);
+    background-image: url(../../assets/images/o-0-alt.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
