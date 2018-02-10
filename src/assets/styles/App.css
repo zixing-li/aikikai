@@ -360,7 +360,8 @@ hr {
     /* background-position: 75% 50%; */
     background-size: cover;
   }
-  .hero-title-home {            
+  .hero-title-home {         
+    top: 45%;      
     text-align: center; 
     text-indent: 0em;            
   }
