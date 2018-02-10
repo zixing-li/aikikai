@@ -182,7 +182,7 @@ hr {
 
 .hero-title-home {
   position: absolute;           
-  top: 53%;                      
+  top: 54%;                      
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -421,12 +421,7 @@ hr {
 
 @media only screen and (min-device-width: 2560px) {
   .hero-content {
-    position: relative;
     min-height: 1080px;  
-    background-image: url(../../assets/images/o-0-alt.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
   }
   .banner-content {
     min-height: 700px;  
