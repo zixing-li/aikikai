@@ -1,6 +1,6 @@
 import React from 'react';
 import fee from '../assets/images/fee.jpg';
-import schedule from '../assets/images/schedule.jpg';
+import schedule from '../assets/images/schedule.JPG';
 import postcard from '../assets/images/2018 New Trial Postcard.jpg';
 
 const Schedule = () => {
