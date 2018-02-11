@@ -72,6 +72,7 @@ table {
   border-collapse: collapse;
   /* width: 40%; */
   background-color: white;
+  overflow: scroll;
 }
 
 th, td {
@@ -151,15 +152,15 @@ hr {
 .hero-content {
   position: relative;
   min-height: 750px;
-  background-image: url(../../assets/images/o-0-alt.jpg);
+  background-image: url(../../assets/images/IMG_Home.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .hero-content .hero-title {
-  position: absolute;           
   top: 45%;                      
+  position: absolute;           
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -182,14 +183,14 @@ hr {
 
 .hero-title-home {
   position: absolute;           
-  top: 54%;                      
+  top: 45%;                      
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 100%;                   
   text-align: center; 
-  /* text-indent: -30%;             */
+  text-indent: -30%;            
   font-size: 4rem;               
   text-transform: uppercase;      
   letter-spacing: 0.5rem;   
@@ -217,10 +218,11 @@ hr {
 .illustration-text {
   font-size: 1.75rem;
   -webkit-text-stroke: .5px black;
+  text-align: left;
 }
 
 .text-container {
-  text-align: center;
+  /* text-align: center; */
   padding: 3% !important;
   margin: 40px 0;
 }
@@ -295,7 +297,7 @@ hr {
 .schedule-fees-section {
   padding: 1% 20% 3% 20%;
 }
-
+ 
 .schedule-fees img {
   max-width: 100%;
   margin-bottom: 3%;
@@ -357,7 +359,7 @@ hr {
     min-height: 550px;  
     /* background-image: url(../../assets/images/o-0.jpg); */
     /* background-repeat: no-repeat; */
-    /* background-position: 75% 50%; */
+    background-position: 75% 50%;
     background-size: cover;
   }
   .hero-title-home {         

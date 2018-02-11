@@ -19,6 +19,7 @@ const Location = () => {
               </ul>
               Visitors are welcome.  Please arrive before regular class times. Thank you.
             </p>
+            <p>Phone: 646-509-9212</p>
           </Col>
         </Row>
       </Grid>

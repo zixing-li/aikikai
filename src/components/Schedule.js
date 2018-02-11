@@ -48,7 +48,7 @@ const Schedule = () => {
             </tr>
             <tr>
               <td><b>10:30-11:15a</b></td>
-              <td>Kids (age 8-14) Stevens</td>
+              <td>Kids (age 6-14) Stevens</td>
             </tr>
             <tr>
               <td><b>11:30-1:00p</b></td>
