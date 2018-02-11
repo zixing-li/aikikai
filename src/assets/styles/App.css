@@ -367,6 +367,9 @@ hr {
     text-align: center; 
     text-indent: 0em;            
   }
+  .illustration-text {
+    text-align: center;
+  }
   h3 {
     position: absolute;
     line-height: 45px;

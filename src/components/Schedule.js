@@ -1,5 +1,6 @@
 import React from 'react';
 import fee from '../assets/images/fee.jpg';
+import schedule from '../assets/images/schedule.jpg';
 import postcard from '../assets/images/2018 New Trial Postcard.jpg';
 
 const Schedule = () => {
@@ -15,7 +16,8 @@ const Schedule = () => {
         </div>
         <div className="schedule-section">
           Schedule <hr/>
-          <table>
+          <img src={schedule} alt="schedule"/>
+          {/* <table>
             <tr>
               <th></th>
               <th>Mon</th>
@@ -54,7 +56,7 @@ const Schedule = () => {
               <td><b>11:30-1:00p</b></td>
               <td>Aikido&Weapons Yamazaki</td>
             </tr>
-          </table>
+          </table> */}
         </div>
         <div className="fee-section">
           Fees <hr/>
