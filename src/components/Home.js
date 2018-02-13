@@ -8,7 +8,11 @@ const Home = () => {
   return (
     <div>
       <div className="hero-content">
-        <h2 className="hero-title-home"><p>New York Eastside Aikikai</p></h2>
+        <div className="hero-title-home">
+          <p>New York Eastside Aikikai</p>
+          <p style={{fontSize: '2.2rem', fontWeight: '800'}}>The Martial Art of Aikido</p>
+          <p style={{fontSize: '2.2rem', fontWeight: '800'}}>Affiliated with United States Aikido Federation</p>
+        </div>
       </div>      
       <Grid fluid>
         <Row className="illustration">
