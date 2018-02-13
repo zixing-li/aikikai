@@ -19,11 +19,14 @@ const Navigation = () => {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav pullRight>
+          <LinkContainer to='/#'>
+            <NavItem eventKey={0}>Home</NavItem>
+          </LinkContainer>
           <LinkContainer to="gallery">
             <NavItem eventKey={1}>Gallery</NavItem>
           </LinkContainer>
           <LinkContainer to="location">
-            <NavItem eventKey={2} href="#">Location</NavItem>
+            <NavItem eventKey={2}>Location</NavItem>
           </LinkContainer>
           <NavDropdown eventKey={3} title="Learn more" id="basic-nav-dropdown">
             <LinkContainer to="aikido"><MenuItem eventKey={3.1}>Aikido</MenuItem></LinkContainer>
